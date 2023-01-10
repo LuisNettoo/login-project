@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neto | Login</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main>
+        <section class="left__login">
+            <img src="images/image.svg" alt="Login Photo">
+        </section>
+        <section class="right__login">
+            <div class="login__title">
+                <h2>Bem vindo de volta 👋</h2>
+                <h1>Faça login na sua conta</h1>
+            </div>
+            <form method="post" class="login__form" autocomplete="off">
+                <div class="login__user">
+                    <label for="iemail">E-mail</label>
+                    <input type="email" name="email" id="iemail" placeholder="example@email.com">
+                </div>
+                <div class="login__password">
+                    <label for="ipassword">Senha</label>
+                    <input type="password" name="password" id="ipassword">
+                </div>
+                <div class="login__request">
+                    <span><input type="checkbox" name="remember" id="iremember"><label for="iremember" style="margin-left: 3px;">Lembre de mim</label></span>
+                    <a href="#">Esqueceu sua senha?</a>
+                </div>
+                <div class="login__buttons">
+                    <button disabled>Entrar</button>
+                    <button disabled><img src="images/google-logo.png" alt="google logo"> Ou faça login com o Google</button>
+                </div>
+                <div class="login__sign-up">
+                    <span>Não tem uma conta? <a href="#">Cadastre-se</a></span>
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
