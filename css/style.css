@@ -107,6 +107,7 @@ main {
     color: white;
     transition: 500ms;
     cursor: pointer;
+    width: 100%;
 }
 
 .login__buttons button:nth-child(1) {
@@ -154,7 +155,7 @@ main {
     }
 
     .login__form, .login__title {
-        min-width: 50vw;
+        max-width: 90vw;
     }
 
 }
